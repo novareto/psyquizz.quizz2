@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from .. import MoreToLess, MoreToLessN, LessToMore, IQuizz
-
 from collections import OrderedDict
-from nva.psyquizz import Base
 from grokcore.component import global_utility
 from sqlalchemy import *
+from sqlalchemy.orm import relationship
 from zope import schema
 from zope.interface import Interface, implementer
 from zope.location import Location
-from sqlalchemy.orm import relationship
+
+from nva.psyquizz import Base
+from nva.psyquizz.models import MoreToLess, MoreToLessN, LessToMore, IQuizz
 
 
 class IQuizz2(Interface):

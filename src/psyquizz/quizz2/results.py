@@ -7,7 +7,7 @@ import uvclight
 
 from grokcore.component import name
 from nva.psyquizz import hs
-from ..quizz2 import Quizz2
+from .quizz2 import Quizz2
 from uvclight.auth import require
 
 

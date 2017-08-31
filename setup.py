@@ -3,7 +3,7 @@
 from os.path import join
 from setuptools import setup, find_packages
 
-name = 'psyquizz.quizz1'
+name = 'psyquizz.quizz2'
 version = '0.1'
 readme = open('README.txt').read()
 history = open(join('docs', 'HISTORY.txt')).read()
